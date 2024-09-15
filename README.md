@@ -12,3 +12,6 @@ Ce projet consiste à mettre en place un cloud privé utilisant l'infrastructure
 
 OpenStack est une suite d'outils open source qui permet de gérer un cloud privé avec une grande flexibilité et un haut niveau de personnalisation. Ce projet présente les étapes d'installation, de configuration et d'utilisation des principaux services d'OpenStack.
 
+## Authors
+
+- [Lamia Oualili](https://github.com/lamiaoua)
