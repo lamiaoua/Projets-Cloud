@@ -28,10 +28,38 @@ Le projet se déroule en plusieurs étapes, depuis la configuration initiale du 
 **Objectif du projet** : Fournir un environnement de développement cloud privé basé sur OpenShift pour héberger et gérer des applications conteneurisées, offrant ainsi un contrôle et une flexibilité accrus par rapport aux solutions PaaS publiques.
 
 # Projet2 : Mise en place d'un Cloud IaaS Privé avec OpenStack
-# Description
-Ce projet consiste à mettre en place un cloud privé utilisant l'infrastructure en tant que service (IaaS) avec OpenStack. L'objectif est de déployer et gérer des ressources informatiques (machines virtuelles, réseaux, stockage) de manière centralisée dans un environnement cloud privé.
 
-OpenStack est une suite d'outils open source qui permet de gérer un cloud privé avec une grande flexibilité et un haut niveau de personnalisation. Ce projet présente les étapes d'installation, de configuration et d'utilisation des principaux services d'OpenStack.
+**Description du projet : Mise en place d'un Cloud IaaS Privé avec OpenStack**
+
+Ce projet consiste à déployer et exploiter une solution de Cloud IaaS (Infrastructure as a Service) privée en utilisant OpenStack, une plateforme open source permettant de créer et de gérer des infrastructures cloud privées et publiques. OpenStack offre la possibilité de gérer des ressources virtuelles telles que des machines virtuelles, des réseaux, des volumes de stockage et des images de manière dynamique et automatisée.
+
+### Objectifs du projet :
+L’objectif principal est de créer un cloud privé en configurant et en administrant une infrastructure OpenStack. Cela permettra aux utilisateurs de provisionner des ressources informatiques à la demande, comme dans un cloud public, tout en conservant un contrôle total sur l'infrastructure sous-jacente.
+
+### Déroulement du projet :
+Le projet se déroule en deux parties principales :
+
+#### 1. **Mise en place d’un Cloud IaaS privé avec OpenStack** :
+Dans cette première étape, l’objectif est de déployer l’infrastructure OpenStack qui servira de base à la création et à la gestion de machines virtuelles, de réseaux et de stockage. Cela comprend :
+
+- **Installation d’OpenStack** : Installation et configuration d'OpenStack sur des serveurs physiques ou virtuels pour créer l’infrastructure de base.
+- **Configuration des composants de base** : Cela inclut la mise en place des services nécessaires comme Nova (pour la gestion des machines virtuelles), Neutron (pour le réseau), Keystone (pour l’authentification et la gestion des utilisateurs), Glance (pour les images des machines), et Cinder (pour le stockage).
+
+#### 2. **Exploitation de la solution Cloud créée avec OpenStack** :
+Cette partie est axée sur l’utilisation et l’administration du cloud créé, avec une série d’objectifs pratiques :
+
+- **Création d’un projet** : Un projet dans OpenStack est une unité organisationnelle permettant de regrouper des utilisateurs, des machines virtuelles et des réseaux.
+- **Manipulation des quotas** : Limitation des ressources (CPU, RAM, stockage, etc.) attribuées à chaque projet ou utilisateur.
+- **Création d’un utilisateur et affectation à un projet** : Gestion des accès utilisateurs en leur attribuant des rôles spécifiques au sein d’un projet.
+- **Création d’un réseau** : Configuration de réseaux internes pour les instances (machines virtuelles) à l’intérieur du cloud.
+- **Ajout d’un routeur Internet** : Permettre aux instances de se connecter à l’Internet public via un routeur configuré dans OpenStack.
+- **Création d’une image** : Gestion des images de machines virtuelles (systèmes d’exploitation préconfigurés) pour le déploiement rapide des instances.
+- **Création d’un groupe de sécurité et configuration des règles** : Gestion des règles de sécurité réseau (firewall) pour contrôler les accès entrants et sortants vers les instances.
+- **Création d’une paire de clés** : Génération de clés SSH pour permettre des connexions sécurisées aux instances sans mot de passe.
+- **Création des instances** : Déploiement des machines virtuelles (instances) qui utiliseront les ressources du cloud.
+
+### Objectif final :
+À l’issue de ce projet, une infrastructure cloud privée complète sera opérationnelle, capable d’héberger et de gérer des machines virtuelles, des réseaux et des volumes de stockage, tout en permettant une gestion fine des utilisateurs et des ressources.
 
 ## Authors
 
